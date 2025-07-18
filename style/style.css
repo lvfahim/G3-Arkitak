@@ -210,6 +210,25 @@ main > section{
    .sponsor-img img{
     filter: grayscale(100%);
    }
+   /* footer section  */
+   footer{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 10px;
+    padding-top: 130px;
+    padding-bottom: 100px;
+   }
+   footer div h5{
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #FFF4E7;  
+    max-width: 1440px; 
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+   }
  
 /* mobile device responsive */
 @media screen and (max-width:576px) {
